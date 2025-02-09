@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Rochester&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wdth,wght@0,75..100,400..700;1,75..100,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap");
+
+body {
+  font-family: "Instrument Sans", serif;
+  font-optical-sizing: auto;
+}
+
+.rochester-regular {
+  font-family: "Rochester", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.philosopher {
+  font-family: "Philosopher", serif;
+  font-style: normal;
+}
+
+.main-header {
+  width: calc(100% - 6rem);
+}
+
+@font-face {
+  font-family: "ChicAvenue";
+  src: url("/src/assets/ChicAvenue-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.chicavenue-text {
+  font-family: "ChicAvenue", sans-serif;
+}
+
+.call-now-btn .cnb-border {
+  position: absolute;
+  border: 0.15em solid #ff2e547a;
+  transition: all 0.3s 0.08s linear;
+  top: 50%;
+  left: 50%;
+  width: 154.5px;
+  height: 44px;
+  transform: translate(-50%, -50%);
+}
+
+.call-now-btn:hover .cnb-border {
+  display: block;
+  width: 170.5px;
+  height: 60px;
+}
+
+/* Main Container */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.controlsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  z-index: 20;
+  opacity: 0; /* Hide by default */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.videoContainer:hover .controlsContainer {
+  opacity: 1; /* Show on hover */
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.controlsIcon {
+  cursor: pointer;
+}
+
+.controlsIcon--small {
+  cursor: pointer;
+}
+
+/* The time controls section */
+.timecontrols {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 1rem;
+  opacity: 0; /* Hide by default */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.videoContainer:hover .timecontrols {
+  opacity: 1; /* Show on hover */
+}
+
+.time_progressbarContainer {
+  background-color: #ffe9e9;
+  border-radius: 15px;
+  height: 5px;
+  z-index: 30;
+  position: relative;
+  margin: 0 20px;
+}
+
+.time_progressBar {
+  border-radius: 15px;
+  background-color: #ff2d55;
+  height: 100%;
+}
+
+.controlsTime {
+  color: white;
+}
+
+.testimonial-rating li svg {
+  width: 22.28px;
+  height: 22.28px;
+}
+
+:root {
+  --color-cursor: 220, 90, 90;
+  --cursor-outline-shade: 0.3;
+  --cursor-size: 10px;
+  --cursor-outline-size: 12px;
+}
+
+body {
+  cursor: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.main-header nav div span svg {
+  width: 17.38px;
+  height: 17.38px;
+}
+.main-header nav div span svg path {
+  fill: #000000 !important;
+}
+
+.testimonial-section ul.testimonial-container > li {
+  width: calc((100% / 2) - 40px);
+}
+
+@media screen and (min-width: 320px) {
+  .main-heade > {
+    width: calc(100% - 1rem);
+  }
+
+  .testimonial-section ul.testimonial-container > li {
+    width: 100%;
+  }
+}

@@ -31,7 +31,7 @@ function HeroSection() {
           "linear-gradient(180deg, rgba(255,242,242,1) 0%, rgba(254,238,239,1) 100%)",
       }}
     >
-      <header className="flex justify-between items-center mt-4 xl:mt-14 mx-auto bg-[#FFA9A970] rounded-full px-4 sm:px-9 py-1.5 sm:py-3.5 main-header">
+      <header className="flex justify-between items-center mt-4 xl:mt-14 mx-auto bg-[#FFA9A970] rounded-full px-4 sm:px-5 md:px-6 lg:px-7 xl:px-8 2xl:px-9 py-1.5 sm:py-3.5 main-header">
         <div className="logo">
           <a href="#" className="flex justify-center items-center relative">
             <figure className="w-[58px] h-[58px] sm:w-[98px] sm:h-[98px] absolute -left-4 sm:-left-10 top-1/2 -translate-y-1/2">
@@ -61,8 +61,8 @@ function HeroSection() {
           </div>
         </nav>
       </header>
-      <div className="mt-10 sm:mt-20 pl-5 sm:pl-28 pr-5 sm:pr-16 flex items-end flex-col sm:flex-row">
-        <div className="w-full sm:w-3/5 pb-14">
+      <div className="mt-10 sm:mt-20 pl-5 sm:pl-8 md:px-10 lg:pl-15 xl:pl-28 pr-5 sm:pr-8 md:pr-4 lg:pr-10 xl:pr-16 flex items-end flex-col sm:flex-row">
+        <div className="w-full md:w-1/2 xl:w-3/5 pb-14">
           <ul className="flex -ml-0.5 gap-1.5">
             <li>
               <MaterialSymbolsStarRoundedDark />
@@ -80,11 +80,11 @@ function HeroSection() {
               <MaterialSymbolsStarRoundedLight />
             </li>
           </ul>
-          <h1 className="chicavenue-text font-normal text-[42px] leading-[45px] sm:text-[56px] mt-4 sm:mt-2 text-left">
+          <h1 className="chicavenue-text font-normal text-3xl sm:text-4xl lg:text-5xl 2xl:text-[56px] mt-4 sm:mt-2 text-left">
             Where Beauty <span className="text-[#FF2D55]">Meets Expertise</span>
           </h1>
           <article className="mt-4.5">
-            <p className="text-[#8E8E93] text-[22px] text-left leading-7 font-medium">
+            <p className="text-[#8E8E93] text-base md:text-xl xl:text-[22px] text-left font-medium">
               Experience unmatched elegance with services designed to inspire
               confidence and radiance
             </p>
@@ -139,13 +139,13 @@ function HeroSection() {
             </a>
           </div>
         </div>
-        <div className="w-full sm:w-2/5 relative">
+        <div className="w-full md:w-1/2 xl:w-2/5 relative">
           <figure className="relative after:absolute after:top-18 after:-left-12 after:bg-[#ffa2a28f] after:w-[525px] after:h-[507px] after:blur-2xl after:rounded-full after:z-0">
             {/* className="relative absolute after:top-0 after:-left-12 after:bg-[#ffa2a28f] after:w-[525px] after:h-[507px] after:blur-2xl after:rounded-full after:z-0 */}
             <img
               src={HeroModel}
               alt="HeroModel"
-              className=" -scale-x-[1] w-full h-full object-contain relative z-10"
+              className="-scale-x-[1] w-full md:w-[400px] h-full object-contain relative z-10"
             />
             {/* <img
               src={Ellipse1}
@@ -154,7 +154,7 @@ function HeroSection() {
             /> */}
           </figure>
 
-          <figure className="absolute -right-3 sm:right-0 left-aut0 sm:-left-10 top-5 w-[34.95px] h-[104px]">
+          <figure className="absolute -right-3 md:-left-5 lg:right-0 left-aut0 sm:-left-10 top-5 sm:-top-5 w-[34.95px] h-[104px]">
             <img
               src={MakeupBrush}
               alt="MakeupBrush"
@@ -164,7 +164,7 @@ function HeroSection() {
               }}
             />
           </figure>
-          <figure className="absolute -left-16 sm:-left-100 bottom-68 sm:bottom-7 w-[180.95px] h-[154px] rotate-[294deg] sm:rotate-[244deg]">
+          <figure className="absolute -left-10 sm:-left-24 md:-left-40 lg:-left-55 xl:-left-100 bottom-50 sm:bottom-10 md:bottom-7 w-30 lg:w-[180.95px] h-[154px] rotate-[294deg] sm:rotate-[244deg]">
             <img
               src={RotateArrow}
               alt="RotateArrow"

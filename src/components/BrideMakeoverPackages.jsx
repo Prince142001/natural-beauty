@@ -3,13 +3,13 @@ import Group4 from "../assets/Group4.png";
 import download from "../assets/download.png";
 function BrideMakeoverPackages() {
   return (
-    <section className="mt-14 p-5 sm:px-16 relative">
+    <section className=" mt-0 sm:mt-5 md:mt-6 lg:mt-8 xl:mt-10 2xl:mt-14 p-5 sm:px-16 relative">
       <header class="w-4/5 mx-auto mb-0 sm:mb-24">
-        <h2 class="chicavenue-text font-normal text-[40px] text-[#FF2D55] capitalize text-center">
+        <h2 class="chicavenue-text font-normal text-3xl sm:text-3xl lg:text-[40px] text-[#FF2D55] capitalize text-center">
           Bride Makeover Packages
         </h2>
         <article class="mt-1.5">
-          <p class="text-[#8E8E93] text-[22px] leading-7 font-normal text-center">
+          <p class="text-[#8E8E93] text-base md:text-xl xl:text-[22px] font-normal text-center">
             Lorem ipsum dolor sit amet consectetur. Orci et id convallis
             condimentum scelerisque venenatis quis. Dui ullamcorper donec vitae
             semper in viverra nisi sollicitudin.

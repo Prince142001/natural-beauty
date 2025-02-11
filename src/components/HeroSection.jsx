@@ -25,7 +25,7 @@ function HeroSection() {
   ]);
   return (
     <section
-      className="overflow-hidden"
+      className="overflow-hidden hero-section"
       style={{
         background:
           "linear-gradient(180deg, rgba(255,242,242,1) 0%, rgba(254,238,239,1) 100%)",
@@ -61,7 +61,7 @@ function HeroSection() {
           </div>
         </nav>
       </header>
-      <div className="mt-10 sm:mt-20 pl-5 sm:pl-8 md:px-10 lg:pl-15 xl:pl-28 pr-5 sm:pr-8 md:pr-4 lg:pr-10 xl:pr-16 flex items-end flex-col sm:flex-row">
+      <div className="mt-10 sm:mt-20 pl-5 sm:pl-8 md:px-10 lg:pl-15 xl:pl-28 pr-5 sm:pr-8 md:pr-4 lg:pr-10 xl:pr-16 flex items-end flex-col sm:flex-row gap-16">
         <div className="w-full md:w-1/2 xl:w-3/5 pb-14">
           <ul className="flex -ml-0.5 gap-1.5">
             <li>
@@ -80,10 +80,10 @@ function HeroSection() {
               <MaterialSymbolsStarRoundedLight />
             </li>
           </ul>
-          <h1 className="chicavenue-text font-normal text-3xl sm:text-4xl lg:text-5xl 2xl:text-[56px] mt-4 sm:mt-2 text-left">
+          <h1 className="chicavenue-text font-normal text-3xl leading-10 sm:text-4xl sm:leading-11 lg:text-5xl lg:leading-14 2xl:text-[56px] 2xl:leading-16 mt-4 sm:mt-4.5 text-left">
             Where Beauty <span className="text-[#FF2D55]">Meets Expertise</span>
           </h1>
-          <article className="mt-4.5">
+          <article className="mt-5">
             <p className="text-[#8E8E93] text-base md:text-xl xl:text-[22px] text-left font-medium">
               Experience unmatched elegance with services designed to inspire
               confidence and radiance
@@ -123,7 +123,7 @@ function HeroSection() {
           <div className="mt-10 xl:mt-12 w-fit block">
             <a
               href=""
-              className="call-now-btn py-[10px] px-8 flex gap-2 items-center relative rounded-full"
+              className="call-now-btn py-[16px] px-8 flex gap-2 items-center relative rounded-full"
               style={{
                 background:
                   "linear-gradient(90deg, rgba(255,29,72,1) 0%, rgba(255,45,85,1) 45%, rgba(255,25,69,1) 100%)",

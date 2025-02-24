@@ -3,10 +3,10 @@ import AboutRadhikaBg from "../assets/AboutRadhika-bg.png";
 function AboutRadhika() {
   return (
     <section className="px-5 sm:px-14 py-14">
-      <div className="px-5 sm:px-14 py-5 sm:py-18 bg-[#FFF4F6] rounded-[63px] overflow-hidden">
+      <div className="px-5 sm:px-14 py-5 sm:py-18 bg-[#FFF4F6] rounded-[63px]">
         <div className="mt-0 sm:mt-20 flex flex-wrap sm:flex-nowrap gap-8 sm:gap-[140px] items-end">
           <div className="w-full sm:w-2/5 relative">
-            <figure className="w-[280px] sm:w-[384.9px] h-full sm:h-[511.11px] absolute bottom-0 left-1/2 -translate-x-1/2 block">
+            <figure className="w-[200px] sm:w-[384.9px] h-[280.11px] sm:h-[511.11px] absolute bottom-0 left-1/2 -translate-x-1/2 block">
               <img
                 src={AboutRadhikaModel}
                 alt=""

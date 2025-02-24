@@ -23,7 +23,7 @@ function VideoSection() {
           </article>
         </header>
       </div>
-      <div className="relative bg-[#FFE9E9] xl:bg-transparent p-5 sm:px-12 2xl:px-14 xl:mt-0 xl:absolute top-0 xl::top-1/2 right-auto xl:right-2.5 translate-auto xl:-translate-y-1/2 w-full xl:w-[775px] h-full xl:h-[441px]">
+      <div className="relative bg-[#FFE9E9] xl:bg-transparent p-5 sm:px-12 2xl:px-14 xl:mt-0 xl:absolute top-0 xl:top-1/2 right-auto xl:right-2.5 translate-auto xl:-translate-y-1/2 w-full xl:w-[775px] h-full xl:h-[441px]">
         <VideoPlayer className="" />
       </div>
     </section>

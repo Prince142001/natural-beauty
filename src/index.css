@@ -56,8 +56,12 @@ body {
 }
 
 .services-section .ss-container ul li figure div.absolute {
-  width: calc(100% - 12px) !important;
+  width: 100%;
 }
+
+/* .services-section .ss-container ul li figure div.absolute {
+  width: calc(100% - 12px) !important;
+} */
 
 .services-section .ss-container ul li figure:hover div.absolute {
   transform: translateY(-12rem);
@@ -168,15 +172,17 @@ a:hover {
 }
 
 @media screen and (min-width: 320px) {
-  .main-heade > {
-    width: calc(100% - 0.2rem);
-  }
-
   .testimonial-section ul.testimonial-container > li {
     width: 100%;
   }
 
-  .services-section .ss-container ul li figure div.absolute {
+  /* .services-section .ss-container ul li figure div.absolute {
     width: calc(100% - 18px) !important;
+  } */
+}
+
+@media screen and (max-width: 320px) {
+  .main-header {
+    width: calc(100% - 0.2rem);
   }
 }

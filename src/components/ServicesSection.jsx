@@ -46,14 +46,14 @@ function ServicesSection() {
         <ul className="flex justify-between sm:gap-x-4 gap-y-10 flex-wrap">
           <li className="grow w-[58%]">
             <div className="">
-              <figure className="rounded-[58px] overflow-hidden p-1.5 bg-white relative w-fit h-full transition-shadow duration-300 shadow-[0_0_34.5px_0_#FFB2B2] hover:shadow-none">
+              <figure className="rounded-[58px] overflow-hidden border-8 border-white bg-white relative w-fit h-full transition-shadow duration-300 shadow-[0_0_34.5px_0_#FFB2B2]">
                 <img
                   src={MakeupServices}
                   alt="Makeup Services"
                   className="rounded-[58px] overflow-hidden w-full h-full object-cover"
                 />
                 <div
-                  className="absolute bottom-1.5 left-1/2 h-1/3 -translate-x-1/2 rounded-b-[58px] overflow-hidden translate-y-48 transition-all"
+                  className="absolute bottom-0 left-1/2 h-1/3 -translate-x-1/2 rounded-b-[58px] overflow-hidden translate-y-48 transition-all"
                   style={{
                     background:
                       "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,78,78,1) 100%)",
@@ -67,14 +67,14 @@ function ServicesSection() {
             </div>
           </li>
           <li className="grow-0 w-[47%] sm:w-[40%]">
-            <figure className="rounded-[58px] overflow-hidden relative p-1.5 bg-white w-fit h-full transition-shadow duration-300 shadow-[0_0_34.5px_0_#FFB2B2] hover:shadow-none">
+            <figure className="rounded-[58px] overflow-hidden relative border-8 border-white bg-white w-fit h-full transition-shadow duration-300 shadow-[0_0_34.5px_0_#FFB2B2]">
               <img
                 src={HairServices}
                 alt="Hair Services"
                 className="rounded-[58px] overflow-hidden w-full h-full object-cover"
               />
               <div
-                className="absolute bottom-1.5 left-1/2 h-1/3 -translate-x-1/2 rounded-b-[58px] overflow-hidden translate-y-48 transition-all"
+                className="absolute bottom-0 left-1/2 h-1/3 -translate-x-1/2 rounded-b-[58px] overflow-hidden translate-y-48 transition-all"
                 style={{
                   background:
                     "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,78,78,1) 100%)",
@@ -87,14 +87,14 @@ function ServicesSection() {
             </figure>
           </li>
           <li className="grow-0 w-[47%] sm:w-[40%]">
-            <figure className="rounded-[58px] overflow-hidden relative p-1.5 bg-white w-fit h-full transition-shadow duration-300 shadow-[0_0_34.5px_0_#FFB2B2] hover:shadow-none">
+            <figure className="rounded-[58px] overflow-hidden relative border-8 border-white bg-white w-fit h-full transition-shadow duration-300 shadow-[0_0_34.5px_0_#FFB2B2]">
               <img
                 src={BrideServices}
                 alt="Bride Services"
                 className="rounded-[58px] overflow-hidden w-full h-full object-cover"
               />
               <div
-                className="absolute bottom-1.5 left-1/2 h-1/3 -translate-x-1/2 rounded-b-[58px] overflow-hidden translate-y-48 transition-all"
+                className="absolute bottom-0 left-1/2 h-1/3 -translate-x-1/2 rounded-b-[58px] overflow-hidden translate-y-48 transition-all"
                 style={{
                   background:
                     "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,78,78,1) 100%)",
@@ -107,14 +107,14 @@ function ServicesSection() {
             </figure>
           </li>
           <li className="grow w-[58%]">
-            <figure className="rounded-[58px] overflow-hidden relative p-1.5 bg-white w-fit h-full transition-shadow duration-300 shadow-[0_0_34.5px_0_#FFB2B2] hover:shadow-none">
+            <figure className="rounded-[58px] overflow-hidden relative border-8 border-white bg-white w-fit h-full transition-shadow duration-300 shadow-[0_0_34.5px_0_#FFB2B2]">
               <img
                 src={SkincareServices}
                 alt="Skincare Services"
                 className="rounded-[58px] overflow-hidden w-full h-full object-cover"
               />
               <div
-                className="absolute bottom-1.5 left-1/2 h-1/3 -translate-x-1/2 rounded-b-[58px] overflow-hidden translate-y-48 transition-all"
+                className="absolute bottom-0 left-1/2 h-1/3 -translate-x-1/2 rounded-b-[58px] overflow-hidden translate-y-48 transition-all"
                 style={{
                   background:
                     "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,78,78,1) 100%)",
